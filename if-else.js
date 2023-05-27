@@ -38,4 +38,47 @@
 // 1. if else
 // 2. switch
 
+// if (conditions){
+//     code to be execute
+//     console.log("conditoin true")
+// } else if (conditions second){
+//     code to be execute
+//     console.log("condition true")
+// } else if (conditions third){
+//     code to be execute
+//     console.log("condition true")
+// } else {
+//     code to be execute
+//     console.log("condition false")
+// }
 
+// QUE: check given number is lesser than 100 or 150 or 200
+
+// var number=30000;
+//  if (number>100){
+//         console.log("The number is lesser than 100")
+//  } else if(number>150){
+//         console.log("The number is lesser than 150")
+//  }else if (number < 200) {
+//     console.log("Number is lesser than 200 and greter 150.....")
+// } else if (number < 133) {
+//     console.log("Number is lesser than 98765.")
+// } else {
+//     console.log("Number is not Lesser than 100 nor 150")
+// }
+
+
+// Q. Check user age and provied licennnn...
+
+// if user age is 18 then he is applicbke for Learnign licc... 
+// user age is greater than 18 and lesser than 80 then dl
+// user age is lesser 18 or greter 80 not allowed dl
+
+var age=18;
+if (age>18 && age<80){
+    console.log("You are allow for Driving Licence..")
+} else if (age==18){
+    console.log("You are allow for Driving Licence..")
+} else{
+    console.log("you are not eligible")
+}
