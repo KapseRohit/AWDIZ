@@ -1,0 +1,106 @@
+*{
+    padding: o;
+    margin: 0;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+#main{
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid black; */
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid blue; */
+    display: flex;
+    background-color: #bae1ff;
+    justify-content: space-around;
+}
+#logo{
+    width: 10%;
+    height: 40px;
+    /* margin-left: 10px; */
+    margin-top: 15px;
+    /* border: 2px solid black; */
+}
+#logo>img{
+    width: 130px;
+    height: 30px;
+}
+
+#search{
+    width: 33%;
+    height: 40px;
+    /* border: 2px solid black; */
+    margin-top: 11px;
+}
+#search>input{
+    width: 350px;
+    height: 30px;
+}
+
+#icons{ 
+    width: 50%;
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+#icons>div:nth-child(1){
+    width: 25%;
+    border-right: 1px solid black;
+}
+#icons>div:nth-child(2){
+    width: 25%;
+    border-right: 1px solid black;
+}
+#icons>div:nth-child(3){
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#features{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    margin-left: 30px;
+    /* margin-right: 50px; */
+    /* border: 2px solid black; */
+}
+#features>div>:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+#banner{
+    width: 100%;
+    height: 400px;
+    background-color: #bae1ff;
+    border: 2px solid red;
+}
+#top{
+    width: 100%;
+    height: 800px;
+    border: 2px solid rgb(136, 255, 0);
+    margin-top: 20px;
+    
+}
+#top>div:nth-child(1)> h1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#products{
+    width: 80%;
+    height: 600px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
